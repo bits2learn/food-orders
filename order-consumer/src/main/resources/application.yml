@@ -1,0 +1,12 @@
+server:
+  port: 8090
+  context-path: /orderconsumer
+  
+spring:
+  application:
+    name: order-consumer
+    
+config:
+  kitchenUrl: http://localhost:8080/orderprocessor/order/dispatch
+  minDriveTime: 2
+  maxDriveTime: 10

@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  context-path: /orderprocessor
+  
+spring:
+  application:
+    name: order-processor
+        
+config:
+  hot: 15
+  cold: 15
+  frozen: 15
+  overflow: 20
+  driverAppUrl: http://localhost:8090/orderconsumer/driver
