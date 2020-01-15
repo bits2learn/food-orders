@@ -35,8 +35,7 @@ public class OrderProducer {
     Timer timer = new Timer();
 
     for (int i = 1; i <= 4; i++) {
-      OrderTaskScheduler task =
-          new OrderTaskScheduler("thread-" + i, producerExecutor, orders, orderUrl);
+      OrderTaskScheduler task = new OrderTaskScheduler(producerExecutor, orders, orderUrl);
       long period = i == 4 ? PERIOD_FOUR_SECS : PERIOD_ONE_SECS;
       timer.schedule(task, period, period);
     }

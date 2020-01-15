@@ -4,7 +4,7 @@
 
 	<groupId>com.css</groupId>
 	<artifactId>order-producer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>order-producer</name>
@@ -35,7 +35,7 @@
 		<dependency>
 		    <groupId>com.css</groupId>
 		    <artifactId>order-common</artifactId>
-		    <version>0.0.1-SNAPSHOT</version>
+		    <version>1.0.0</version>
 		</dependency>
 	</dependencies>
 	<build>

@@ -58,9 +58,9 @@ public abstract class Shelf implements Observer {
 
   protected void moveOverflowShelfOrders(OverflowShelf overflowShelf, int ordersToMove) {
     if (ordersToMove > 0) {
-      List<Order> overflowOrdersWhichCanBeMoved =
-          overflowShelf.getOrders().stream().filter(order -> order.getShelfType() == this.getShelfType())
-              .sorted(new SortOrderByAge()).collect(Collectors.toList());
+      List<Order> overflowOrdersWhichCanBeMoved = overflowShelf.getOrders().stream()
+          .filter(order -> order.getShelfType() == this.getShelfType()).sorted(new SortOrderByAge())
+          .collect(Collectors.toList());
 
       if (overflowOrdersWhichCanBeMoved.size() > 0) {
         List<Order> ordersToRemoveFromOverflowShelf = new ArrayList<>();
@@ -101,7 +101,7 @@ public abstract class Shelf implements Observer {
     contents.setSize(orders.size());
     contents.setOrders(orders);
     try {
-      System.out.println(JSON.writeValueAsString(contents));
+      LOG.info(JSON.writeValueAsString(contents));
     } catch (JsonProcessingException e) {
       LOG.error("Error while printing contents", e);
     }

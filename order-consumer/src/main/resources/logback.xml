@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<configuration scan="true" scanPeriod="60 seconds">
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSSZZ} [%thread] %m%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="DEFAULT"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>logs/consumer.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+			<fileNamePattern>logs/consumer.log.%i</fileNamePattern>
+			<minIndex>1</minIndex>
+			<maxIndex>9</maxIndex>
+		</rollingPolicy>
+
+		<triggeringPolicy
+			class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+			<maxFileSize>100MB</maxFileSize>
+		</triggeringPolicy>
+
+		<encoder>
+			<pattern>%d{yyyy-MM-dd'T'HH:mm:ss.SSSZZ} [%thread] %m%n</pattern>
+		</encoder>
+	</appender>
+
+
+
+	<logger name="org.springframework" level="WARN"/>
+	<logger name="org.springframework.boot.context.web.OrderedRequestContextFilter" level="WARN"/>
+	<logger name="org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping" level="WARN"/>
+	<logger name="org.springframework.security" level="DEBUG"/>
+	<logger name="org.apache" level="WARN" />
+    <logger name="httpclient" level="WARN" />
+	
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="DEFAULT" />
+	</root>
+
+</configuration>

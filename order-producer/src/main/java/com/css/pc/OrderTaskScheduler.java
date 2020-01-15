@@ -8,15 +8,13 @@ import com.css.order.common.model.Order;
 
 public class OrderTaskScheduler extends TimerTask {
 
-  private String name;
   private ThreadPoolExecutor producerExecutor;
   private List<Order> orders;
   private String orderUrl;
   private Random random;
 
-  public OrderTaskScheduler(String name, ThreadPoolExecutor producerExecutor, List<Order> orders,
+  public OrderTaskScheduler(ThreadPoolExecutor producerExecutor, List<Order> orders,
       String orderUrl) {
-    this.name = name;
     this.producerExecutor = producerExecutor;
     this.orders = orders;
     this.orderUrl = orderUrl;
@@ -26,7 +24,7 @@ public class OrderTaskScheduler extends TimerTask {
   @Override
   public void run() {
     Order order = orders.get(random.nextInt(orders.size()));
-    ProducerTask producerTask = new ProducerTask(name, order, orderUrl);
+    ProducerTask producerTask = new ProducerTask(order, orderUrl);
     producerExecutor.submit(producerTask);
   }
 

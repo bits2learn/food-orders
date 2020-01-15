@@ -1,8 +1,7 @@
-/Users/nchapa/Documents/Test/order-producer-consumer/src/main/java/com/css/pc/ProducerTask.java
-/Users/nchapa/Documents/Test/order-producer-consumer/src/main/java/com/css/app/App.java
-/Users/nchapa/Documents/Test/order-producer-consumer/src/main/java/com/css/pc/ConsumerTask.java
-/Users/nchapa/Documents/Test/order-producer-consumer/src/main/java/com/css/http/HttpClient.java
-/Users/nchapa/Documents/Test/order-producer-consumer/src/main/java/com/css/pc/DriverTaskScheduler.java
-/Users/nchapa/Documents/Test/order-producer-consumer/src/main/java/com/css/pc/Order.java
-/Users/nchapa/Documents/Test/order-producer-consumer/src/main/java/com/css/pc/OrderPC.java
-/Users/nchapa/Documents/Test/order-producer-consumer/src/main/java/com/css/pc/OrderTaskScheduler.java
+/Users/nchapa/Documents/Test/order-producer/src/main/java/com/css/order/common/model/ShelfType.java
+/Users/nchapa/Documents/Test/order-producer/src/main/java/com/css/pc/OrderTaskScheduler.java
+/Users/nchapa/Documents/Test/order-producer/src/main/java/com/css/order/common/http/HttpClient.java
+/Users/nchapa/Documents/Test/order-producer/src/main/java/com/css/pc/OrderProducer.java
+/Users/nchapa/Documents/Test/order-producer/src/main/java/com/css/order/common/model/Order.java
+/Users/nchapa/Documents/Test/order-producer/src/main/java/com/css/app/App.java
+/Users/nchapa/Documents/Test/order-producer/src/main/java/com/css/pc/ProducerTask.java
