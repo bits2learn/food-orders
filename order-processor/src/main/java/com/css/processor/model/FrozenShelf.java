@@ -8,6 +8,7 @@ public class FrozenShelf extends Shelf {
 
   public FrozenShelf(int size) {
     this.orders = new ArrayBlockingQueue<Order>(size);
+    this.size = size;
   }
 
   @Override

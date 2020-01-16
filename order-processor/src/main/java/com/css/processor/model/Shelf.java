@@ -19,6 +19,7 @@ public abstract class Shelf implements Observer {
   private static final Logger LOG = LoggerFactory.getLogger(HotShelf.class);
   private static final ObjectMapper JSON = new ObjectMapper();
   private DecimalFormat df = new DecimalFormat("#.00000");
+  protected int size;
   protected BlockingQueue<Order> orders;
 
   public abstract ShelfType getShelfType();
@@ -47,17 +48,15 @@ public abstract class Shelf implements Observer {
   @Override
   public void update(OverflowShelf overflowshelf) {
     if (orders != null && !orders.isEmpty()) {
-      int orderCntBefore = orders.size();
       List<Order> nonDecayOrders = orders.stream().map(order -> getUpdateOrder(order))
           .filter(order -> order.getNormalizedValue() > 0).collect(Collectors.toList());
       orders.retainAll(nonDecayOrders);
-      int orderCntAfter = orders.size();
-      moveOverflowShelfOrders(overflowshelf, orderCntBefore - orderCntAfter);
+      moveOverflowShelfOrders(overflowshelf, orders.size() < size);
     }
   }
 
-  protected void moveOverflowShelfOrders(OverflowShelf overflowShelf, int ordersToMove) {
-    if (ordersToMove > 0) {
+  protected void moveOverflowShelfOrders(OverflowShelf overflowShelf, boolean moveOverflowOrders) {
+    if (moveOverflowOrders) {
       List<Order> overflowOrdersWhichCanBeMoved = overflowShelf.getOrders().stream()
           .filter(order -> order.getShelfType() == this.getShelfType()).sorted(new SortOrderByAge())
           .collect(Collectors.toList());

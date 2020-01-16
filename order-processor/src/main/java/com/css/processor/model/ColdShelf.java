@@ -8,6 +8,7 @@ public class ColdShelf extends Shelf {
 
   public ColdShelf(int size) {
     this.orders = new ArrayBlockingQueue<Order>(size);
+    this.size = size;
   }
 
   @Override

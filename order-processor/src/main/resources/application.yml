@@ -10,5 +10,5 @@ config:
   hot: 15
   cold: 15
   frozen: 15
-  overflow: 20
+  overflow: 15
   driverAppUrl: http://localhost:8090/orderconsumer/driver

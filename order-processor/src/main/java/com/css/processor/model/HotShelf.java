@@ -8,6 +8,7 @@ public class HotShelf extends Shelf {
 
   public HotShelf(int size) {
     this.orders = new ArrayBlockingQueue<Order>(size);
+    this.size = size;
   }
 
   @Override

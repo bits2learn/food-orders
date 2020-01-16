@@ -1,0 +1,66 @@
+2020-01-15T21:06:29.126-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Spinach Omelet, temp: hot, shelfLife: 230.0, decayRate: 0.63 ]
+2020-01-15T21:06:29.126-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Pickles, temp: cold, shelfLife: 259.0, decayRate: 0.29 ]
+2020-01-15T21:06:29.126-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Beef Hash, temp: hot, shelfLife: 30.0, decayRate: 0.74 ]
+2020-01-15T21:06:29.405-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:29.406-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:29.406-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:30.006-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Chunky Monkey, temp: frozen, shelfLife: 210.0, decayRate: 0.54 ]
+2020-01-15T21:06:30.011-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:30.127-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Push Pop, temp: frozen, shelfLife: 220.0, decayRate: 0.5 ]
+2020-01-15T21:06:30.127-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Ice Cream Sandwich, temp: frozen, shelfLife: 250.0, decayRate: 0.5 ]
+2020-01-15T21:06:30.133-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:30.133-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:31.010-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Cranberry Salad, temp: cold, shelfLife: 245.0, decayRate: 0.21 ]
+2020-01-15T21:06:31.015-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:31.131-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Sherbet, temp: frozen, shelfLife: 175.0, decayRate: 0.6 ]
+2020-01-15T21:06:31.131-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Yogurt, temp: cold, shelfLife: 400.0, decayRate: 0.67 ]
+2020-01-15T21:06:31.138-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:31.138-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:32.003-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Pastrami Sandwich, temp: hot, shelfLife: 190.0, decayRate: 0.8 ]
+2020-01-15T21:06:32.010-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Beef Stew, temp: hot, shelfLife: 206.0, decayRate: 0.69 ]
+2020-01-15T21:06:32.010-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:32.013-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:32.135-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Strawberries, temp: frozen, shelfLife: 500.0, decayRate: 0.05 ]
+2020-01-15T21:06:32.135-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Burrito, temp: hot, shelfLife: 202.0, decayRate: 0.72 ]
+2020-01-15T21:06:32.142-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:32.142-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:33.010-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Orange Sorbet, temp: frozen, shelfLife: 165.0, decayRate: 0.65 ]
+2020-01-15T21:06:33.014-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:33.137-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Carne Asada, temp: hot, shelfLife: 222.0, decayRate: 0.71 ]
+2020-01-15T21:06:33.137-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Yogurt, temp: cold, shelfLife: 400.0, decayRate: 0.67 ]
+2020-01-15T21:06:33.143-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:33.144-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:34.011-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Pad See Ew, temp: hot, shelfLife: 210.0, decayRate: 0.72 ]
+2020-01-15T21:06:34.017-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:34.137-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Cottage Cheese, temp: cold, shelfLife: 251.0, decayRate: 0.22 ]
+2020-01-15T21:06:34.137-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Burrito, temp: hot, shelfLife: 202.0, decayRate: 0.72 ]
+2020-01-15T21:06:34.143-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:34.143-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:35.016-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Hamburger, temp: hot, shelfLife: 200.0, decayRate: 0.63 ]
+2020-01-15T21:06:35.022-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:35.143-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Mint Chocolate Ice Cream, temp: frozen, shelfLife: 290.0, decayRate: 0.5 ]
+2020-01-15T21:06:35.143-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Fudge Ice Cream Cake, temp: frozen, shelfLife: 415.0, decayRate: 0.49 ]
+2020-01-15T21:06:35.163-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:35.163-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:36.005-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Popsicle, temp: frozen, shelfLife: 345.0, decayRate: 0.75 ]
+2020-01-15T21:06:36.009-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:36.020-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Kale Salad, temp: cold, shelfLife: 250.0, decayRate: 0.25 ]
+2020-01-15T21:06:36.024-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:36.147-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Ice Cream Sandwich, temp: frozen, shelfLife: 250.0, decayRate: 0.5 ]
+2020-01-15T21:06:36.147-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Coke, temp: cold, shelfLife: 240.0, decayRate: 0.25 ]
+2020-01-15T21:06:36.152-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:36.152-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:37.023-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Chicken, temp: hot, shelfLife: 201.0, decayRate: 0.74 ]
+2020-01-15T21:06:37.027-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:37.150-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Hamburger, temp: hot, shelfLife: 200.0, decayRate: 0.63 ]
+2020-01-15T21:06:37.150-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Cobb Salad, temp: cold, shelfLife: 263.0, decayRate: 0.2 ]
+2020-01-15T21:06:37.154-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:37.154-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:38.024-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Milk, temp: cold, shelfLife: 252.0, decayRate: 0.15 ]
+2020-01-15T21:06:38.027-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:38.154-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Pork Chop, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T21:06:38.154-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Tomato Soup, temp: hot, shelfLife: 243.0, decayRate: 0.71 ]
+2020-01-15T21:06:38.158-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:38.158-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T21:06:39.029-0800 [pool-1-thread-2] Customer Placed order: Order: [name: MeatLoaf, temp: hot, shelfLife: 213.0, decayRate: 0.5 ]
+2020-01-15T21:06:39.033-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused

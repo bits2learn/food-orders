@@ -10,6 +10,7 @@ public class OverflowShelf extends Shelf {
 
   public OverflowShelf(int size) {
     this.orders = new ArrayBlockingQueue<Order>(size);
+    this.size = size;
   }
 
   @Override
@@ -20,7 +21,7 @@ public class OverflowShelf extends Shelf {
   }
 
   @Override
-  protected void moveOverflowShelfOrders(OverflowShelf overflowShelf, int ordersToMove) {
+  protected void moveOverflowShelfOrders(OverflowShelf overflowShelf, boolean moveOverflowOrders) {
     // no operation, since during rearrangement we only move from other shelves to overflow shelf
     // and not the other way
     return;

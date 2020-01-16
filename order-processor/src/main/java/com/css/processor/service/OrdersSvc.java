@@ -45,7 +45,7 @@ public class OrdersSvc {
       LOG.trace("order {} is being added to Overflow shelf", order.toString());
       orderAddedToShelf = kitchenShelf.getShelf(ShelfType.overflow).addOrder(order);
     } else {
-      System.out.println("Order is added to the shelf: " + order.toString());
+      LOG.trace("order {} is added to the shelf: ", order.toString());
     }
 
     if (!orderAddedToShelf) {
@@ -68,19 +68,20 @@ public class OrdersSvc {
     kitchenShelf.notifyUpdate();
 
     BlockingQueue<Order> orders = shelf.getOrders();
-    orderRemovedFromShelf = orders.removeIf(x -> x.equals(order));
+    if (orders.contains(order)) {
+      orderRemovedFromShelf = orders.remove(order);
+    }
     if (orderRemovedFromShelf) {
-      System.out.println("Order is removed from the shelf: " + order.toString());
       LOG.trace("Order is removed from the shelf: {}", order.toString());
     } else {
       // check if order is present on overflow shelf
       orders = kitchenShelf.getShelf(ShelfType.overflow).getOrders();
-      orderRemovedFromShelf = orders.removeIf(x -> x.equals(order));
+      if (orders.contains(order)) {
+        orderRemovedFromShelf = orders.remove(order);
+      }
       if (orderRemovedFromShelf) {
-        System.out.println("Order is removed from the shelf: " + order.toString());
         LOG.trace("Order is removed from the shelf: {}", order.toString());
       } else {
-        System.out.println("Order is not present on the shelf: " + order.toString());
         LOG.trace("Order is not present on the shelf: {}", order.toString());
       }
     }
@@ -97,4 +98,8 @@ public class OrdersSvc {
     return kitchenShelf.displayContents(true);
   }
 
+  // VisibleForTesting
+  protected void setKichenShelf(KitchenShelf kitchenShelf) {
+    this.kitchenShelf = kitchenShelf;
+  }
 }
