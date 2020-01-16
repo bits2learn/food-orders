@@ -1,66 +1,156 @@
-2020-01-15T21:06:29.126-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Spinach Omelet, temp: hot, shelfLife: 230.0, decayRate: 0.63 ]
-2020-01-15T21:06:29.126-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Pickles, temp: cold, shelfLife: 259.0, decayRate: 0.29 ]
-2020-01-15T21:06:29.126-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Beef Hash, temp: hot, shelfLife: 30.0, decayRate: 0.74 ]
-2020-01-15T21:06:29.405-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:29.406-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:29.406-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:30.006-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Chunky Monkey, temp: frozen, shelfLife: 210.0, decayRate: 0.54 ]
-2020-01-15T21:06:30.011-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:30.127-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Push Pop, temp: frozen, shelfLife: 220.0, decayRate: 0.5 ]
-2020-01-15T21:06:30.127-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Ice Cream Sandwich, temp: frozen, shelfLife: 250.0, decayRate: 0.5 ]
-2020-01-15T21:06:30.133-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:30.133-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:31.010-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Cranberry Salad, temp: cold, shelfLife: 245.0, decayRate: 0.21 ]
-2020-01-15T21:06:31.015-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:31.131-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Sherbet, temp: frozen, shelfLife: 175.0, decayRate: 0.6 ]
-2020-01-15T21:06:31.131-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Yogurt, temp: cold, shelfLife: 400.0, decayRate: 0.67 ]
-2020-01-15T21:06:31.138-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:31.138-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:32.003-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Pastrami Sandwich, temp: hot, shelfLife: 190.0, decayRate: 0.8 ]
-2020-01-15T21:06:32.010-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Beef Stew, temp: hot, shelfLife: 206.0, decayRate: 0.69 ]
-2020-01-15T21:06:32.010-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:32.013-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:32.135-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Strawberries, temp: frozen, shelfLife: 500.0, decayRate: 0.05 ]
-2020-01-15T21:06:32.135-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Burrito, temp: hot, shelfLife: 202.0, decayRate: 0.72 ]
-2020-01-15T21:06:32.142-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:32.142-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:33.010-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Orange Sorbet, temp: frozen, shelfLife: 165.0, decayRate: 0.65 ]
-2020-01-15T21:06:33.014-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:33.137-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Carne Asada, temp: hot, shelfLife: 222.0, decayRate: 0.71 ]
-2020-01-15T21:06:33.137-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Yogurt, temp: cold, shelfLife: 400.0, decayRate: 0.67 ]
-2020-01-15T21:06:33.143-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:33.144-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:34.011-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Pad See Ew, temp: hot, shelfLife: 210.0, decayRate: 0.72 ]
-2020-01-15T21:06:34.017-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:34.137-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Cottage Cheese, temp: cold, shelfLife: 251.0, decayRate: 0.22 ]
-2020-01-15T21:06:34.137-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Burrito, temp: hot, shelfLife: 202.0, decayRate: 0.72 ]
-2020-01-15T21:06:34.143-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:34.143-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:35.016-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Hamburger, temp: hot, shelfLife: 200.0, decayRate: 0.63 ]
-2020-01-15T21:06:35.022-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:35.143-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Mint Chocolate Ice Cream, temp: frozen, shelfLife: 290.0, decayRate: 0.5 ]
-2020-01-15T21:06:35.143-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Fudge Ice Cream Cake, temp: frozen, shelfLife: 415.0, decayRate: 0.49 ]
-2020-01-15T21:06:35.163-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:35.163-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:36.005-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Popsicle, temp: frozen, shelfLife: 345.0, decayRate: 0.75 ]
-2020-01-15T21:06:36.009-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:36.020-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Kale Salad, temp: cold, shelfLife: 250.0, decayRate: 0.25 ]
-2020-01-15T21:06:36.024-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:36.147-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Ice Cream Sandwich, temp: frozen, shelfLife: 250.0, decayRate: 0.5 ]
-2020-01-15T21:06:36.147-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Coke, temp: cold, shelfLife: 240.0, decayRate: 0.25 ]
-2020-01-15T21:06:36.152-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:36.152-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:37.023-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Chicken, temp: hot, shelfLife: 201.0, decayRate: 0.74 ]
-2020-01-15T21:06:37.027-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:37.150-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Hamburger, temp: hot, shelfLife: 200.0, decayRate: 0.63 ]
-2020-01-15T21:06:37.150-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Cobb Salad, temp: cold, shelfLife: 263.0, decayRate: 0.2 ]
-2020-01-15T21:06:37.154-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:37.154-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:38.024-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Milk, temp: cold, shelfLife: 252.0, decayRate: 0.15 ]
-2020-01-15T21:06:38.027-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:38.154-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Pork Chop, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
-2020-01-15T21:06:38.154-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Tomato Soup, temp: hot, shelfLife: 243.0, decayRate: 0.71 ]
-2020-01-15T21:06:38.158-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:38.158-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
-2020-01-15T21:06:39.029-0800 [pool-1-thread-2] Customer Placed order: Order: [name: MeatLoaf, temp: hot, shelfLife: 213.0, decayRate: 0.5 ]
-2020-01-15T21:06:39.033-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:19:57.352-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Fudge Ice Cream Cake, temp: frozen, shelfLife: 415.0, decayRate: 0.49 ]
+2020-01-15T22:19:57.352-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Pressed Juice, temp: cold, shelfLife: 250.0, decayRate: 0.2 ]
+2020-01-15T22:19:57.352-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Cheese, temp: cold, shelfLife: 255.0, decayRate: 0.2 ]
+2020-01-15T22:19:58.141-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Poppers, temp: hot, shelfLife: 204.0, decayRate: 0.78 ]
+2020-01-15T22:19:58.349-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Chocolate Gelato, temp: frozen, shelfLife: 300.0, decayRate: 0.61 ]
+2020-01-15T22:19:58.349-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Vegan Pizza, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T22:19:59.144-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Pickles, temp: cold, shelfLife: 259.0, decayRate: 0.29 ]
+2020-01-15T22:19:59.354-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Vegan Pizza, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T22:19:59.354-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Orange Sorbet, temp: frozen, shelfLife: 165.0, decayRate: 0.65 ]
+2020-01-15T22:20:00.138-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Sushi, temp: cold, shelfLife: 251.0, decayRate: 0.25 ]
+2020-01-15T22:20:00.144-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Apples, temp: cold, shelfLife: 244.0, decayRate: 0.23 ]
+2020-01-15T22:20:00.358-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Pistachio Ice Cream, temp: frozen, shelfLife: 175.0, decayRate: 0.4 ]
+2020-01-15T22:20:00.363-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Corn Dog, temp: hot, shelfLife: 203.0, decayRate: 0.3 ]
+2020-01-15T22:20:01.146-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Sushi, temp: cold, shelfLife: 251.0, decayRate: 0.25 ]
+2020-01-15T22:20:01.359-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Yogurt, temp: cold, shelfLife: 400.0, decayRate: 0.67 ]
+2020-01-15T22:20:01.359-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Vanilla Ice Cream, temp: frozen, shelfLife: 310.0, decayRate: 0.35 ]
+2020-01-15T22:20:02.152-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Mint Chocolate Ice Cream, temp: frozen, shelfLife: 290.0, decayRate: 0.5 ]
+2020-01-15T22:20:02.360-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Orange Chicken, temp: hot, shelfLife: 215.0, decayRate: 0.67 ]
+2020-01-15T22:20:02.360-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Kale Salad, temp: cold, shelfLife: 250.0, decayRate: 0.25 ]
+2020-01-15T22:20:03.154-0800 [pool-1-thread-1] Customer Placed order: Order: [name: McFlury, temp: frozen, shelfLife: 375.0, decayRate: 0.4 ]
+2020-01-15T22:20:03.363-0800 [pool-1-thread-2] Customer Placed order: Order: [name: French Fries, temp: hot, shelfLife: 220.0, decayRate: 0.67 ]
+2020-01-15T22:20:03.363-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Chicken Nuggets, temp: hot, shelfLife: 205.0, decayRate: 0.71 ]
+2020-01-15T22:20:04.142-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Ice, temp: frozen, shelfLife: 100.0, decayRate: 0.9 ]
+2020-01-15T22:20:04.157-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Pasta, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T22:20:04.367-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Popsicle, temp: frozen, shelfLife: 345.0, decayRate: 0.75 ]
+2020-01-15T22:20:04.367-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Frosty, temp: frozen, shelfLife: 135.0, decayRate: 0.52 ]
+2020-01-15T22:20:05.161-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Carne Asada, temp: hot, shelfLife: 222.0, decayRate: 0.71 ]
+2020-01-15T22:20:05.367-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Carne Asada, temp: hot, shelfLife: 222.0, decayRate: 0.71 ]
+2020-01-15T22:20:05.367-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Vegan Pizza, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T22:20:06.161-0800 [pool-1-thread-2] Customer Placed order: Order: [name: French Fries, temp: hot, shelfLife: 220.0, decayRate: 0.67 ]
+2020-01-15T22:20:06.368-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Frosty, temp: frozen, shelfLife: 135.0, decayRate: 0.52 ]
+2020-01-15T22:20:06.368-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Ice Cream Sandwich, temp: frozen, shelfLife: 250.0, decayRate: 0.5 ]
+2020-01-15T22:20:07.161-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Brown Rice, temp: hot, shelfLife: 224.0, decayRate: 0.64 ]
+2020-01-15T22:20:07.369-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Sushi, temp: cold, shelfLife: 251.0, decayRate: 0.25 ]
+2020-01-15T22:20:07.369-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Orange Sorbet, temp: frozen, shelfLife: 165.0, decayRate: 0.65 ]
+2020-01-15T22:20:08.146-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Fudge Ice Cream Cake, temp: frozen, shelfLife: 415.0, decayRate: 0.49 ]
+2020-01-15T22:20:08.164-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Fudge Ice Cream Cake, temp: frozen, shelfLife: 415.0, decayRate: 0.49 ]
+2020-01-15T22:20:08.372-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Arugula, temp: cold, shelfLife: 251.0, decayRate: 0.27 ]
+2020-01-15T22:20:08.372-0800 [pool-1-thread-2] Customer Placed order: Order: [name: MeatLoaf, temp: hot, shelfLife: 213.0, decayRate: 0.5 ]
+2020-01-15T22:20:09.167-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Fresh Bread, temp: hot, shelfLife: 201.0, decayRate: 0.9 ]
+2020-01-15T22:20:09.374-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Orange Chicken, temp: hot, shelfLife: 215.0, decayRate: 0.67 ]
+2020-01-15T22:20:09.374-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Push Pop, temp: frozen, shelfLife: 220.0, decayRate: 0.5 ]
+2020-01-15T22:20:10.170-0800 [pool-1-thread-3] Customer Placed order: Order: [name: French Fries, temp: hot, shelfLife: 220.0, decayRate: 0.67 ]
+2020-01-15T22:20:10.375-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Beef Hash, temp: hot, shelfLife: 30.0, decayRate: 0.74 ]
+2020-01-15T22:20:10.375-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Chicken, temp: hot, shelfLife: 201.0, decayRate: 0.74 ]
+2020-01-15T22:20:11.175-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Tomato Soup, temp: hot, shelfLife: 243.0, decayRate: 0.71 ]
+2020-01-15T22:20:11.376-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Frosty, temp: frozen, shelfLife: 135.0, decayRate: 0.52 ]
+2020-01-15T22:20:11.376-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Cookie Dough, temp: frozen, shelfLife: 600.0, decayRate: 0.15 ]
+2020-01-15T22:20:12.144-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Chicken, temp: hot, shelfLife: 201.0, decayRate: 0.74 ]
+2020-01-15T22:20:12.180-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Orange Sorbet, temp: frozen, shelfLife: 165.0, decayRate: 0.65 ]
+2020-01-15T22:20:12.378-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Carne Asada, temp: hot, shelfLife: 222.0, decayRate: 0.71 ]
+2020-01-15T22:20:12.378-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Fresh Bread, temp: hot, shelfLife: 201.0, decayRate: 0.9 ]
+2020-01-15T22:20:13.182-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Strawberyy Banana Split, temp: frozen, shelfLife: 24.0, decayRate: 0.6 ]
+2020-01-15T22:20:13.379-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Icy, temp: frozen, shelfLife: 230.0, decayRate: 0.6 ]
+2020-01-15T22:20:13.379-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Cranberry Salad, temp: cold, shelfLife: 245.0, decayRate: 0.21 ]
+2020-01-15T22:20:14.186-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Arugula, temp: cold, shelfLife: 251.0, decayRate: 0.27 ]
+2020-01-15T22:20:14.381-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Mixed Greens, temp: cold, shelfLife: 252.0, decayRate: 0.26 ]
+2020-01-15T22:20:14.381-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Pistachio Ice Cream, temp: frozen, shelfLife: 175.0, decayRate: 0.4 ]
+2020-01-15T22:20:15.190-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Snow Cone, temp: frozen, shelfLife: 50.0, decayRate: 0.86 ]
+2020-01-15T22:20:15.382-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Ice, temp: frozen, shelfLife: 100.0, decayRate: 0.9 ]
+2020-01-15T22:20:15.382-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Arugula, temp: cold, shelfLife: 251.0, decayRate: 0.27 ]
+2020-01-15T22:20:16.145-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Chocolate Gelato, temp: frozen, shelfLife: 308.0, decayRate: 0.67 ]
+2020-01-15T22:20:16.193-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Burrito, temp: hot, shelfLife: 202.0, decayRate: 0.72 ]
+2020-01-15T22:20:16.386-0800 [pool-1-thread-2] Customer Placed order: Order: [name: French Fries, temp: hot, shelfLife: 220.0, decayRate: 0.67 ]
+2020-01-15T22:20:16.386-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Icy, temp: frozen, shelfLife: 230.0, decayRate: 0.6 ]
+2020-01-15T22:20:17.196-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Mint Chocolate Ice Cream, temp: frozen, shelfLife: 290.0, decayRate: 0.5 ]
+2020-01-15T22:20:17.391-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Orange Sorbet, temp: frozen, shelfLife: 165.0, decayRate: 0.65 ]
+2020-01-15T22:20:17.391-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Pasta, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T22:20:18.200-0800 [pool-1-thread-3] Customer Placed order: Order: [name: McFlury, temp: frozen, shelfLife: 372.0, decayRate: 0.45 ]
+2020-01-15T22:20:18.393-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Orange Chicken, temp: hot, shelfLife: 215.0, decayRate: 0.67 ]
+2020-01-15T22:20:18.393-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Coke, temp: cold, shelfLife: 240.0, decayRate: 0.25 ]
+2020-01-15T22:20:19.204-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Coconut, temp: cold, shelfLife: 254.0, decayRate: 0.22 ]
+2020-01-15T22:20:19.395-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Cobb Salad, temp: cold, shelfLife: 263.0, decayRate: 0.2 ]
+2020-01-15T22:20:19.395-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Beef Stew, temp: hot, shelfLife: 206.0, decayRate: 0.69 ]
+2020-01-15T22:20:20.149-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Yogurt, temp: cold, shelfLife: 263.0, decayRate: 0.37 ]
+2020-01-15T22:20:20.205-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Hamburger, temp: hot, shelfLife: 200.0, decayRate: 0.63 ]
+2020-01-15T22:20:20.395-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Pressed Juice, temp: cold, shelfLife: 250.0, decayRate: 0.2 ]
+2020-01-15T22:20:20.395-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Strawberyy Banana Split, temp: frozen, shelfLife: 24.0, decayRate: 0.6 ]
+2020-01-15T22:20:21.208-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Pastrami Sandwich, temp: hot, shelfLife: 190.0, decayRate: 0.8 ]
+2020-01-15T22:20:21.395-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Cookie Dough, temp: frozen, shelfLife: 600.0, decayRate: 0.15 ]
+2020-01-15T22:20:21.395-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Beef Stew, temp: hot, shelfLife: 206.0, decayRate: 0.69 ]
+2020-01-15T22:20:22.211-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Carne Asada, temp: hot, shelfLife: 222.0, decayRate: 0.71 ]
+2020-01-15T22:20:22.396-0800 [pool-1-thread-1] Customer Placed order: Order: [name: McFlury, temp: frozen, shelfLife: 372.0, decayRate: 0.45 ]
+2020-01-15T22:20:22.396-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Pressed Juice, temp: cold, shelfLife: 250.0, decayRate: 0.2 ]
+2020-01-15T22:20:23.212-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Kebab, temp: hot, shelfLife: 200.0, decayRate: 0.54 ]
+2020-01-15T22:20:23.396-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Grilled Corn Salad, temp: cold, shelfLife: 305.0, decayRate: 0.1 ]
+2020-01-15T22:20:23.396-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Beef Stew, temp: hot, shelfLife: 206.0, decayRate: 0.69 ]
+2020-01-15T22:20:24.154-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Chunky Monkey, temp: frozen, shelfLife: 210.0, decayRate: 0.54 ]
+2020-01-15T22:20:24.219-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Burrito, temp: hot, shelfLife: 202.0, decayRate: 0.72 ]
+2020-01-15T22:20:24.398-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Apples, temp: cold, shelfLife: 244.0, decayRate: 0.23 ]
+2020-01-15T22:20:24.398-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Pad See Ew, temp: hot, shelfLife: 210.0, decayRate: 0.72 ]
+2020-01-15T22:20:25.217-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Grilled Corn Salad, temp: cold, shelfLife: 305.0, decayRate: 0.1 ]
+2020-01-15T22:20:25.402-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Spinach Omelet, temp: hot, shelfLife: 230.0, decayRate: 0.63 ]
+2020-01-15T22:20:25.402-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Beef Hash, temp: hot, shelfLife: 30.0, decayRate: 0.74 ]
+2020-01-15T22:20:26.222-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Apples, temp: cold, shelfLife: 244.0, decayRate: 0.23 ]
+2020-01-15T22:20:26.405-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Poppers, temp: hot, shelfLife: 204.0, decayRate: 0.78 ]
+2020-01-15T22:20:26.405-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Apples, temp: cold, shelfLife: 244.0, decayRate: 0.23 ]
+2020-01-15T22:20:27.225-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Fudge Ice Cream Cake, temp: frozen, shelfLife: 415.0, decayRate: 0.49 ]
+2020-01-15T22:20:27.405-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Beef Hash, temp: hot, shelfLife: 30.0, decayRate: 0.74 ]
+2020-01-15T22:20:27.406-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Ice, temp: frozen, shelfLife: 100.0, decayRate: 0.9 ]
+2020-01-15T22:20:28.153-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Cheese, temp: cold, shelfLife: 255.0, decayRate: 0.2 ]
+2020-01-15T22:20:28.226-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Fresh Fruit, temp: cold, shelfLife: 252.0, decayRate: 0.29 ]
+2020-01-15T22:20:28.405-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Coke, temp: cold, shelfLife: 240.0, decayRate: 0.25 ]
+2020-01-15T22:20:28.405-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Acai Bowl, temp: cold, shelfLife: 249.0, decayRate: 0.3 ]
+2020-01-15T22:20:29.228-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Fresh Bread, temp: hot, shelfLife: 201.0, decayRate: 0.9 ]
+2020-01-15T22:20:29.406-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Grilled Corn Salad, temp: cold, shelfLife: 305.0, decayRate: 0.1 ]
+2020-01-15T22:20:29.406-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Pork Chop, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T22:20:30.230-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Ice Cream Sandwich, temp: frozen, shelfLife: 250.0, decayRate: 0.5 ]
+2020-01-15T22:20:30.406-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Orange Chicken, temp: hot, shelfLife: 215.0, decayRate: 0.67 ]
+2020-01-15T22:20:30.406-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Orange Sorbet, temp: frozen, shelfLife: 165.0, decayRate: 0.65 ]
+2020-01-15T22:20:31.230-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Mac & Cheese, temp: hot, shelfLife: 205.0, decayRate: 0.51 ]
+2020-01-15T22:20:31.409-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Mint Chocolate Ice Cream, temp: frozen, shelfLife: 290.0, decayRate: 0.5 ]
+2020-01-15T22:20:31.409-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Orange Chicken, temp: hot, shelfLife: 215.0, decayRate: 0.67 ]
+2020-01-15T22:20:32.153-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Fudge Ice Cream Cake, temp: frozen, shelfLife: 415.0, decayRate: 0.49 ]
+2020-01-15T22:20:32.230-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Pork Chop, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T22:20:32.409-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Coke, temp: cold, shelfLife: 240.0, decayRate: 0.25 ]
+2020-01-15T22:20:32.410-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Cranberry Salad, temp: cold, shelfLife: 245.0, decayRate: 0.21 ]
+2020-01-15T22:20:33.232-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Chicken Nuggets, temp: hot, shelfLife: 205.0, decayRate: 0.71 ]
+2020-01-15T22:20:33.409-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Cheese, temp: cold, shelfLife: 255.0, decayRate: 0.2 ]
+2020-01-15T22:20:33.409-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Arugula, temp: cold, shelfLife: 251.0, decayRate: 0.27 ]
+2020-01-15T22:20:34.237-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Mint Chocolate Ice Cream, temp: frozen, shelfLife: 290.0, decayRate: 0.5 ]
+2020-01-15T22:20:34.411-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Spinach Omelet, temp: hot, shelfLife: 230.0, decayRate: 0.63 ]
+2020-01-15T22:20:34.411-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Milk, temp: cold, shelfLife: 252.0, decayRate: 0.15 ]
+2020-01-15T22:20:35.239-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Onion Rings, temp: hot, shelfLife: 201.0, decayRate: 0.7 ]
+2020-01-15T22:20:35.413-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Corn Dog, temp: hot, shelfLife: 203.0, decayRate: 0.3 ]
+2020-01-15T22:20:35.413-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Spinach Omelet, temp: hot, shelfLife: 230.0, decayRate: 0.63 ]
+2020-01-15T22:20:36.161-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Cottage Cheese, temp: cold, shelfLife: 255.0, decayRate: 0.26 ]
+2020-01-15T22:20:36.243-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Mac & Cheese, temp: hot, shelfLife: 205.0, decayRate: 0.51 ]
+2020-01-15T22:20:36.413-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Chicken Nuggets, temp: hot, shelfLife: 205.0, decayRate: 0.71 ]
+2020-01-15T22:20:36.413-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Spinach Omelet, temp: hot, shelfLife: 230.0, decayRate: 0.63 ]
+2020-01-15T22:20:37.245-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Corn Dog, temp: hot, shelfLife: 203.0, decayRate: 0.3 ]
+2020-01-15T22:20:37.414-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Fish Tacos, temp: hot, shelfLife: 207.0, decayRate: 0.74 ]
+2020-01-15T22:20:37.414-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Cranberry Salad, temp: cold, shelfLife: 245.0, decayRate: 0.21 ]
+2020-01-15T22:20:38.249-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Strawberries, temp: frozen, shelfLife: 500.0, decayRate: 0.05 ]
+2020-01-15T22:20:38.417-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Icy, temp: frozen, shelfLife: 230.0, decayRate: 0.6 ]
+2020-01-15T22:20:38.417-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Sushi, temp: cold, shelfLife: 251.0, decayRate: 0.25 ]
+2020-01-15T22:20:39.253-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Hamburger, temp: hot, shelfLife: 200.0, decayRate: 0.63 ]
+2020-01-15T22:20:39.257-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:39.420-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Chocolate Gelato, temp: frozen, shelfLife: 308.0, decayRate: 0.67 ]
+2020-01-15T22:20:39.420-0800 [pool-1-thread-2] Customer Placed order: Order: [name: MeatLoaf, temp: hot, shelfLife: 213.0, decayRate: 0.5 ]
+2020-01-15T22:20:39.422-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:39.422-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:40.159-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Apples, temp: cold, shelfLife: 244.0, decayRate: 0.23 ]
+2020-01-15T22:20:40.161-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:40.254-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Cranberry Salad, temp: cold, shelfLife: 245.0, decayRate: 0.21 ]
+2020-01-15T22:20:40.257-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:40.421-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Chunky Monkey, temp: frozen, shelfLife: 210.0, decayRate: 0.54 ]
+2020-01-15T22:20:40.421-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Cookie Dough, temp: frozen, shelfLife: 600.0, decayRate: 0.15 ]
+2020-01-15T22:20:40.423-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:40.423-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:41.256-0800 [pool-1-thread-2] Customer Placed order: Order: [name: Chocolate Gelato, temp: frozen, shelfLife: 300.0, decayRate: 0.61 ]
+2020-01-15T22:20:41.259-0800 [pool-1-thread-2] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:41.425-0800 [pool-1-thread-3] Customer Placed order: Order: [name: Onion Rings, temp: hot, shelfLife: 201.0, decayRate: 0.7 ]
+2020-01-15T22:20:41.425-0800 [pool-1-thread-1] Customer Placed order: Order: [name: Spinach Omelet, temp: hot, shelfLife: 230.0, decayRate: 0.63 ]
+2020-01-15T22:20:41.428-0800 [pool-1-thread-3] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T22:20:41.428-0800 [pool-1-thread-1] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
