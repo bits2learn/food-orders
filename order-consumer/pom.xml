@@ -8,9 +8,7 @@
 		<version>1.4.5.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.css</groupId>
 	<artifactId>order-consumer</artifactId>
-	<version>1.0.0</version>
 	<name>order-consumer</name>
 	<description>Drivers (consumers) project for order pickup</description>
 
@@ -59,12 +57,6 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.css</groupId>
-			<artifactId>order-common</artifactId>
-			<version>1.0.0</version>
-			<scope>compile</scope>
-		</dependency>
 
 	</dependencies>
 
@@ -80,32 +72,6 @@
 						</manifest>
 					</archive>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-
-				<configuration>
-					<descriptorRefs>
-						<descriptorRef>jar-with-dependencies</descriptorRef>
-					</descriptorRefs>
-					<archive>
-						<manifest>
-							<mainClass>com.css.consumer.OrderConsumerApplication</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-
-				<executions>
-					<execution>
-						<id>make-assembly</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-					</execution>
-				</executions>
-
 			</plugin>
 		</plugins>
 	</build>

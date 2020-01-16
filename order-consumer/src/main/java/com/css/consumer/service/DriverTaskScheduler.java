@@ -19,7 +19,7 @@ public class DriverTaskScheduler extends TimerTask {
 
   @Override
   public void run() {
-    LOG.info("Driver order pickup: {}", order.toString());
+    LOG.info("Driver picked up order: {}", order.toString());
     HttpClient.sendPost(url, order);
   }
 

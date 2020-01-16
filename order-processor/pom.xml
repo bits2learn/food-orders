@@ -47,13 +47,6 @@
 			</exclusions>
 		</dependency>
 
-		<dependency>
-			<groupId>com.css</groupId>
-			<artifactId>order-common</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-
-
 		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-annotations -->
 		<dependency>
 			<groupId>io.swagger</groupId>
@@ -82,32 +75,6 @@
 						</manifest>
 					</archive>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-
-				<configuration>
-					<descriptorRefs>
-						<descriptorRef>jar-with-dependencies</descriptorRef>
-					</descriptorRefs>
-					<archive>
-						<manifest>
-							<mainClass>com.css.processor.OrderProcessorApplication</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-
-				<executions>
-					<execution>
-						<id>make-assembly</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-					</execution>
-				</executions>
-
 			</plugin>
 		</plugins>
 	</build>

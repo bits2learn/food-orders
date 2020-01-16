@@ -1,7 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.4.5.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
 	<groupId>com.css</groupId>
 	<artifactId>order-producer</artifactId>
 	<version>1.0.0</version>
@@ -16,26 +21,22 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.9.10.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.5.10</version>
-		</dependency>
-		<dependency>
-		    <groupId>com.css</groupId>
-		    <artifactId>order-common</artifactId>
-		    <version>1.0.0</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -44,7 +45,6 @@
 				<!-- Build an executable JAR -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.4</version>
 				<configuration>
 					<archive>
 						<manifest>
@@ -56,7 +56,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
-				<version>3.1.1</version>
 
 				<configuration>
 					<descriptorRefs>

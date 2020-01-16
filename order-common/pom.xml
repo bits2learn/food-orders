@@ -6,13 +6,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.4.5.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.css</groupId>
 	<artifactId>order-common</artifactId>
 	<version>1.0.0</version>
 	<name>order-common</name>
-	<description>Common module for orders projects</description>
+	<description>Common project for order</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -35,18 +35,18 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
+		
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.9.10.1</version>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 		</dependency>
+		
 	</dependencies>
 
 	<build>
@@ -58,4 +58,5 @@
 		</plugins>
 	</build>
 
+	<packaging>pom</packaging>
 </project>
