@@ -13,6 +13,7 @@ public class Config {
   private int frozen;
   private int overflow;
   private String driverAppUrl;
+  private boolean updateOnRemove;
 
   public int getHot() {
     return hot;
@@ -52,6 +53,14 @@ public class Config {
 
   public void setDriverAppUrl(String driverAppUrl) {
     this.driverAppUrl = driverAppUrl;
+  }
+
+  public boolean isUpdateOnRemove() {
+    return updateOnRemove;
+  }
+
+  public void setUpdateOnRemove(boolean updateOnRemove) {
+    this.updateOnRemove = updateOnRemove;
   }
 
 }

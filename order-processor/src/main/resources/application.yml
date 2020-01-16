@@ -12,3 +12,4 @@ config:
   frozen: 15
   overflow: 15
   driverAppUrl: http://localhost:8090/orderconsumer/driver
+  updateOnRemove: false

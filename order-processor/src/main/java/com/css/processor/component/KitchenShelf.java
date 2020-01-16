@@ -20,6 +20,8 @@ public class KitchenShelf {
   private FrozenShelf frozenShelf;
   private OverflowShelf overflowShelf;
 
+  private boolean updateOnRemove;
+
   private final OrderPublisher publisher = new OrderPublisher();
 
   @Autowired
@@ -32,6 +34,7 @@ public class KitchenShelf {
     publisher.attach(frozenShelf);
     overflowShelf = new OverflowShelf(config.getOverflow());
     publisher.attach(overflowShelf);
+    updateOnRemove = config.isUpdateOnRemove();
   }
 
   public Shelf getShelf(ShelfType type) {
@@ -53,6 +56,10 @@ public class KitchenShelf {
 
   public List<ShelfContents> displayContents(boolean orderAddedOrRemoved) {
     return publisher.displayContents(orderAddedOrRemoved);
+  }
+
+  public boolean updateOnRemove() {
+    return updateOnRemove;
   }
 
 }

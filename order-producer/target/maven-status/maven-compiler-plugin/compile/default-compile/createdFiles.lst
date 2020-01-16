@@ -1,8 +1,0 @@
-com/css/producer/OrderProducer$1.class
-com/css/order/common/model/Order.class
-com/css/app/App.class
-com/css/order/common/model/ShelfType.class
-com/css/producer/ProducerTask.class
-com/css/producer/OrderProducer.class
-com/css/order/common/http/HttpClient.class
-com/css/producer/OrderTaskScheduler.class

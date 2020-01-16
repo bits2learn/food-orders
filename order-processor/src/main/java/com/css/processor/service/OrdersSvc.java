@@ -64,9 +64,6 @@ public class OrdersSvc {
     Shelf shelf = kitchenShelf.getShelf(order.getShelfType());
     boolean orderRemovedFromShelf = false;
 
-    // update contents of shelf to see if any order can be moved from overflow shelf
-    kitchenShelf.notifyUpdate();
-
     BlockingQueue<Order> orders = shelf.getOrders();
     if (orders.contains(order)) {
       orderRemovedFromShelf = orders.remove(order);
@@ -85,6 +82,15 @@ public class OrdersSvc {
         LOG.trace("Order is not present on the shelf: {}", order.toString());
       }
     }
+
+    // update contents of shelf to see if any order can be moved from overflow shelf
+    // this additional work is done to lower the damage of decaying
+    // at a faster rate on the overflow shelf
+    // if we are fine with faster decaying rates we can avoid this update operation here
+    if (kitchenShelf.updateOnRemove()) {
+      kitchenShelf.notifyUpdate();
+    }
+
     kitchenShelf.displayContents(orderRemovedFromShelf);
   }
 
