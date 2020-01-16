@@ -124,3 +124,46 @@
 2020-01-15T22:20:39.426-0800 [Timer-121] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
 2020-01-15T22:20:40.250-0800 [Timer-123] Driver picked up order: Order: [name: Onion Rings, temp: hot, shelfLife: 201.0, decayRate: 0.7 ]
 2020-01-15T22:20:40.254-0800 [Timer-123] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T23:21:40.280-0800 [main] Starting OrderConsumerApplication on C02PW5F0G8WP with PID 44535 (/Users/nchapa/Documents/Test/order-consumer/target/classes started by nchapa in /Users/nchapa/Documents/Test/order-consumer)
+2020-01-15T23:21:40.283-0800 [main] No active profile set, falling back to default profiles: default
+2020-01-15T23:21:40.583-0800 [background-preinit] HV000001: Hibernate Validator 5.2.4.Final
+2020-01-15T23:21:42.881-0800 [main] Started OrderConsumerApplication in 2.978 seconds (JVM running for 7.205)
+2020-01-15T23:21:49.538-0800 [Timer-8] Driver picked up order: Order: [name: Cobb Salad, temp: cold, shelfLife: 263.0, decayRate: 0.2 ]
+2020-01-15T23:21:49.539-0800 [Timer-5] Driver picked up order: Order: [name: Corn Dog, temp: hot, shelfLife: 203.0, decayRate: 0.3 ]
+2020-01-15T23:21:51.396-0800 [Timer-13] Driver picked up order: Order: [name: Cranberry Salad, temp: cold, shelfLife: 245.0, decayRate: 0.21 ]
+2020-01-15T23:21:51.546-0800 [Timer-14] Driver picked up order: Order: [name: Cheese Pizza, temp: hot, shelfLife: 200.0, decayRate: 0.76 ]
+2020-01-15T23:21:53.401-0800 [Timer-6] Driver picked up order: Order: [name: Taco, temp: hot, shelfLife: 198.0, decayRate: 0.38 ]
+2020-01-15T23:21:54.345-0800 [Timer-0] Driver picked up order: Order: [name: Cheese, temp: cold, shelfLife: 255.0, decayRate: 0.2 ]
+2020-01-15T23:21:55.545-0800 [Timer-27] Driver picked up order: Order: [name: Strawberries, temp: frozen, shelfLife: 500.0, decayRate: 0.05 ]
+2020-01-15T23:21:56.395-0800 [Timer-3] Driver picked up order: Order: [name: Hamburger, temp: hot, shelfLife: 200.0, decayRate: 0.63 ]
+2020-01-15T23:21:56.409-0800 [Timer-29] Driver picked up order: Order: [name: Sushi, temp: cold, shelfLife: 251.0, decayRate: 0.25 ]
+2020-01-15T23:21:56.537-0800 [Timer-7] Driver picked up order: Order: [name: Beef Stew, temp: hot, shelfLife: 206.0, decayRate: 0.69 ]
+2020-01-15T23:21:57.346-0800 [Timer-1] Driver picked up order: Order: [name: Burrito, temp: hot, shelfLife: 202.0, decayRate: 0.72 ]
+2020-01-15T23:21:57.346-0800 [Timer-2] Driver picked up order: Order: [name: Pork Chop, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T23:21:57.396-0800 [Timer-9] Driver picked up order: Order: [name: Vanilla Ice Cream, temp: frozen, shelfLife: 310.0, decayRate: 0.35 ]
+2020-01-15T23:21:57.400-0800 [Timer-16] Driver picked up order: Order: [name: Spinach Omelet, temp: hot, shelfLife: 230.0, decayRate: 0.63 ]
+2020-01-15T23:21:57.547-0800 [Timer-18] Driver picked up order: Order: [name: Kale Salad, temp: cold, shelfLife: 250.0, decayRate: 0.25 ]
+2020-01-15T23:21:57.573-0800 [Timer-15] Driver picked up order: Order: [name: Chicken, temp: hot, shelfLife: 201.0, decayRate: 0.74 ]
+2020-01-15T23:21:58.537-0800 [Timer-4] Driver picked up order: Order: [name: Vegan Pizza, temp: hot, shelfLife: 200.0, decayRate: 0.7 ]
+2020-01-15T23:21:59.421-0800 [Timer-36] Driver picked up order: Order: [name: Kale Salad, temp: cold, shelfLife: 250.0, decayRate: 0.25 ]
+2020-01-15T23:21:59.543-0800 [Timer-24] Driver picked up order: Order: [name: Arugula, temp: cold, shelfLife: 251.0, decayRate: 0.27 ]
+2020-01-15T23:21:59.543-0800 [Timer-25] Driver picked up order: Order: [name: Taco, temp: hot, shelfLife: 198.0, decayRate: 0.38 ]
+2020-01-15T23:21:59.565-0800 [Timer-20] Driver picked up order: Order: [name: Chocolate Gelato, temp: frozen, shelfLife: 308.0, decayRate: 0.67 ]
+2020-01-15T23:22:00.397-0800 [Timer-10] Driver picked up order: Order: [name: Cranberry Salad, temp: cold, shelfLife: 245.0, decayRate: 0.21 ]
+2020-01-15T23:22:00.406-0800 [Timer-26] Driver picked up order: Order: [name: Strawberries, temp: frozen, shelfLife: 500.0, decayRate: 0.05 ]
+2020-01-15T23:22:00.538-0800 [Timer-11] Driver picked up order: Order: [name: Taco, temp: hot, shelfLife: 198.0, decayRate: 0.38 ]
+2020-01-15T23:22:00.542-0800 [Timer-12] Driver picked up order: Order: [name: Tomato Soup, temp: hot, shelfLife: 243.0, decayRate: 0.71 ]
+2020-01-15T23:22:00.543-0800 [Timer-17] Driver picked up order: Order: [name: Cottage Cheese, temp: cold, shelfLife: 255.0, decayRate: 0.26 ]
+2020-01-15T23:22:00.554-0800 [Timer-34] Driver picked up order: Order: [name: Fresh Fruit, temp: cold, shelfLife: 252.0, decayRate: 0.29 ]
+2020-01-15T23:22:01.387-0800 [Timer-35] Driver picked up order: Order: [name: Cheese Pizza, temp: hot, shelfLife: 200.0, decayRate: 0.76 ]
+2020-01-15T23:22:01.405-0800 [Timer-19] Driver picked up order: Order: [name: Pistachio Ice Cream, temp: frozen, shelfLife: 175.0, decayRate: 0.4 ]
+2020-01-15T23:22:01.413-0800 [Timer-32] Driver picked up order: Order: [name: Pistachio Ice Cream, temp: frozen, shelfLife: 175.0, decayRate: 0.4 ]
+2020-01-15T23:22:01.547-0800 [Timer-43] Driver picked up order: Order: [name: Grilled Corn Salad, temp: cold, shelfLife: 305.0, decayRate: 0.1 ]
+2020-01-15T23:22:01.563-0800 [Timer-21] Driver picked up order: Order: [name: Cookie Dough, temp: frozen, shelfLife: 600.0, decayRate: 0.15 ]
+2020-01-15T23:22:02.425-0800 [Timer-45] Driver picked up order: Order: [name: Beef Hash, temp: hot, shelfLife: 30.0, decayRate: 0.74 ]
+2020-01-15T23:22:02.550-0800 [Timer-40] Driver picked up order: Order: [name: Fresh Bread, temp: hot, shelfLife: 201.0, decayRate: 0.9 ]
+2020-01-15T23:22:02.556-0800 [Timer-47] Driver picked up order: Order: [name: McFlury, temp: frozen, shelfLife: 375.0, decayRate: 0.4 ]
+2020-01-15T23:22:03.393-0800 [Timer-22] Driver picked up order: Order: [name: Orange Chicken, temp: hot, shelfLife: 215.0, decayRate: 0.67 ]
+2020-01-15T23:22:03.398-0800 [Timer-22] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+2020-01-15T23:22:03.427-0800 [Timer-52] Driver picked up order: Order: [name: Cheese, temp: cold, shelfLife: 255.0, decayRate: 0.2 ]
+2020-01-15T23:22:03.431-0800 [Timer-52] Error: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
